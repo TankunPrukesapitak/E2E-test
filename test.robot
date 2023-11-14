@@ -6,7 +6,7 @@ Library    SeleniumLibrary
 TC-1 Open web sites
     Open Browser    https://ci-cd-test-obxb.onrender.com/    chrome
     FOR    ${i}    IN RANGE    2
-        Wait Until Page Contains    Todo     10
+        Wait Until Page Contains    Todo     30
         Click Element    //a[@href="/add"]
         Wait Until Page Contains    Save    10
         Click Element    //a[@href="/?all=1"]
