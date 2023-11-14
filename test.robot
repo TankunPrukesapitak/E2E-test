@@ -9,7 +9,9 @@ TC-1 Open web sites
         Wait Until Page Contains    Todo     30
         Click Element    //a[@href="/add"]
         Wait Until Page Contains    Save    10
-        Click Element    //a[@href="/?all=1"]
-        Wait Until Page Contains    //a[@href="/?all=1"]    10   
+        Input text    //input[@id='id_name']    tan132
+        Click Element    //button[@type='submit']
+        Click Element    //a[@href="/"]
+        Wait Until Page Contains    tan132    10   
     END
         
