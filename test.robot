@@ -10,6 +10,6 @@ TC-1 Open web sites
         Click Element    //a[@href="/add"]
         Wait Until Page Contains    Save    10
         Click Element    //a[@href="/?all=1"]
-        Wait Until Page Contains    tan132    10   
+        Wait Until Page Contains    //a[@href="/?all=1"]    10   
     END
         
