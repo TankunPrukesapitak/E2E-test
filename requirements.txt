@@ -1,2 +1,2 @@
 robotframework
-robotframework-PuppeteerLibrary
+robotframework-seleniumlibrary
