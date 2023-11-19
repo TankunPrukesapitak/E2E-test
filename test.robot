@@ -4,7 +4,7 @@ Library    SeleniumLibrary
 
 *** Test Cases ***
 TC-1 Open web sites
-    Open Browser    https://ci-cd-test-obxb.onrender.com/    chrome
+    Open Browser    https://python-ci-cd.azurewebsites.net/    chrome
     FOR    ${i}    IN RANGE    2
         Wait Until Page Contains    Todo     30
         Click Element    //a[@href="/add"]
